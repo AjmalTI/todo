@@ -1,0 +1,42 @@
+body{
+     background-image: linear-gradient(to bottom,#572985,#2c4cc0,#7251cb);
+     background-repeat:no-repeat;
+}
+.list {
+     justify-content: center;
+     /* margin: 0%; */
+          text-transform: uppercase;
+          list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+     height: 200px;
+     width: 200px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     padding-top: 50px;
+     text-align: center;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     background: transparent;
+}
+.list :hover{
+     transition:  1s ease-in-out ;
+     transform:scale(1.1)
+}
+
+.card p {
+  /* margin-top: 50px; */
+  font-weight: bold;
+}
+
+.searchBox {
+     text-align: center;
+}
+.searchBox input{
+     height: 30px;
+     width: 500px;
+     border-radius: 25px;
+}
